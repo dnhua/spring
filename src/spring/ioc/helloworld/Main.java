@@ -6,7 +6,7 @@ import org.springframework.core.io.ClassPathResource;
 public class Main {
     public static void main(String[] args) {
         XmlBeanFactory factory = new XmlBeanFactory
-                (new ClassPathResource("spring/ioc/helloworld/Beans.xml"));
+                (new ClassPathResource( "spring/ioc/helloworld/Beans.xml"));
         HelloWorld obj = (HelloWorld) factory.getBean("HelloWorld");
         obj.getMessage();
     }
