@@ -1,4 +1,4 @@
-package spring.ioc.helloworld;
+package spring.ioc.sample1;
 
 public class HelloWorld {
     private String message;
